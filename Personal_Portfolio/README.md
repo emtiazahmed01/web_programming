@@ -16,7 +16,7 @@ I’m an **Information & Communication Engineering (ICE)** student at
 ---
 
 ## 🔗 Live Website
-👉 https://emtiazahmed01.github.io/web_programming/Personal_Portfolio/home.html
+👉 https://emtiazahmed01.github.io/web_programming/Personal_Portfolio/index.html
 
 ---
 
