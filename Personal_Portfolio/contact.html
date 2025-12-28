@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Emtiaz Ahmed</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&family=Creepster&family=Silkscreen&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: 'Silkscreen', sans-serif;
+      background: radial-gradient(circle at top right, #a52db5, #0d7956);
+      color: white;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 60px;
+    }
+
+    .navbar h1 {
+      font-family: 'Bitcount Grid Double';
+      font-size: 22px;
+      color: #00aaff;
+    }
+
+    .navbar a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: white;
+      font-family: 'Bitcount Grid Double';
+    }
+
+    .navbar a.active,
+    .navbar a:hover {
+      color: #00aaff;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-family: 'Creepster';
+      font-size: 42px;
+      color: #000;
+      margin-bottom: 10px;
+    }
+
+    .contact-section p {
+      color: #00aaff;
+      font-style: italic;
+      margin-bottom: 60px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+    }
+
+    .contact-card {
+      background: rgba(0, 0, 0, 0.55);
+      border-radius: 12px;
+      padding: 35px 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .contact-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    }
+
+    .contact-card h3 {
+      margin-bottom: 12px;
+      color: #00aaff;
+      font-size: 20px;
+    }
+
+    .contact-card p,
+    .contact-card a {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 2px solid #000;
+      margin-top: 80px;
+    }
+
+    footer p {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="navbar">
+  <h1>EMTIAZ AHMED</h1>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a class="active">Contact</a>
+  </nav>
+</header>
+
+<section class="contact-section">
+  <h2>Feel Free to Contact Me</h2>
+  <p>Let’s work together</p>
+
+  <div class="contact-grid">
+    <div class="contact-card">
+      <h3>📞 Mobile</h3>
+      <p>+88017********</p>
+    </div>
+
+    <div class="contact-card">
+      <h3>📧 Email</h3>
+      <a href="mailto:emtiaz1117@student.nstu.edu.bd">
+        emtiaz1117@student.nstu.edu.bd
+      </a>
+    </div>
+
+    <div class="contact-card">
+      <h3>🗺️ Address</h3>
+      <p>Dept. of ICE<br>NSTU</p>
+    </div>
+
+    <div class="contact-card">
+      <h3>🌐 Website</h3>
+      <a href="https://emtiazahmed01.github.io/" target="_blank">
+        emtiazahmed01.github.io
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Emtiaz Ahmed · Personal Portfolio</p>
+</footer>
+
+</body>
+</html>

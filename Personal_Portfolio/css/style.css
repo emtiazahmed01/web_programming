@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Silkscreen', sans-serif;
+  color: white;
+  background: url("../images/Random_Ghost_V1.gif") center/cover fixed no-repeat;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.navbar a {
+  margin-left: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar .active {
+  color: #00aaff;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  gap: 60px;
+}
+
+.hero img {
+  max-width: 420px;
+}
+
+/* Text */
+.hello {
+  font-family: 'Caveat';
+  font-size: 48px;
+  color: red;
+}
+
+.hero span {
+  color: #16a0d1;
+  font-family: 'Permanent Marker';
+}
+
+.tag {
+  background: #af996c;
+  display: inline-block;
+  padding: 6px 16px;
+  margin: 15px 0;
+  color: black;
+}
+
+/* Sections */
+.section {
+  padding: 80px;
+}
+
+.section.dark {
+  background: rgba(0,0,0,0.6);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 14px;
+}
