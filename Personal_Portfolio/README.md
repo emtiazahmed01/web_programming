@@ -1,6 +1,7 @@
 # 🚀 Personal Portfolio — Emtiaz Ahmed
 
-![Portfolio Preview](./images/Random_Ghost_V1.gif)
+![Portfolio Preview](<img width="1901" height="868" alt="image" src="https://github.com/user-attachments/assets/a20b619e-f343-415f-94bd-aad56ea17c5d" />
+)
 
 ## 👋 Hello, I’m **Emtiaz Ahmed**
 
@@ -61,17 +62,3 @@ Personal_Portfolio/
 - 📧 Email: emtiaz1117@student.nstu.edu.bd  
 - 🌐 Website: https://emtiazahmed01.github.io  
 - 🏫 Dept. of ICE, NSTU  
-
----
-
-## 🧠 Future Plans
-
-- Add Projects section  
-- Downloadable CV  
-- Contact form  
-- Animations  
-- React / Next.js version  
-
----
-
-⭐ If you like this project, give it a star!
