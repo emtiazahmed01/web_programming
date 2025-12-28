@@ -1,6 +1,6 @@
 # 🚀 Personal Portfolio — Emtiaz Ahmed
 
-![Portfolio Preview](./images/Screenshot 2025-12-28 160958.png)
+![Portfolio Preview](./images/portfolio-preview.png)
 
 ## 👋 Hello, I’m **Emtiaz Ahmed**
 
